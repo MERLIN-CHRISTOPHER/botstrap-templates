@@ -1,0 +1,334 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Stick+No+Bills:wght@300;800&display=swap');
+
+
+*{
+    font-family: 'League Gothic', sans-serif;
+font-family: 'Stick No Bills', sans-serif;
+padding: 0%;
+margin: 0%;
+
+}
+
+.backround1{
+    width: 100%;
+    height: 520vh;
+background-image: url(./images2/backround1.jpg);
+
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+.color1{
+    position: relative;
+    
+}
+
+.container-fluid{
+    text-align: center;
+    margin: auto;
+    font-weight: 900;
+    
+}
+
+.container-fluid ul li a{
+    color: azure;
+    margin: auto;
+    width: 100%;
+    margin-left: 10px;
+    
+}
+.navbar{
+    box-shadow: 10px 10px 10px white;
+    box-shadow: 10px 10px 10px rgb(241, 13, 13);
+    
+    opacity: 0.90;
+    width: 90%;
+    margin: 10px auto;
+}
+.color2{
+    margin-top: 50px;
+    background-image: url(./images2/pexels-pixabay-35888.jpg);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.color2 div{
+    width: 70%;
+height: 300px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 98, 255);
+    background-color: rgba(255, 255, 255, 0.315);
+    box-shadow: 10px 13px  18px white;
+    font-weight: 900;
+}
+
+.color3{
+    width: 95%;
+    height: 500px;
+    background-color: rgba(255, 255, 224, 0.247);
+    box-shadow: 15px 6px  10px white;
+    margin: auto;
+    
+}
+.color3 div{
+    position: relative;
+    top: 30px;
+    opacity: 100%;
+    width: 100%;
+    color: rgb(246, 246, 2);
+    text-align: center;
+  
+}
+
+
+
+
+.flexbox1{
+
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    
+}
+
+
+.man1{
+    
+  position: relative;
+    height: 90%;
+    background-color: rgba(240, 255, 255, 0.25);  
+    box-shadow: 10px 10px 10px wheat;
+}
+
+
+
+.man1 >.bar1{
+    margin-top: 15px;
+    width: 90%;
+    height: 30px;
+    background-color: crimson;
+    
+    
+}
+
+.man1 >.bar2{
+    margin-top: 15px;
+    width: 70%;
+    height: 30px;
+    background-color: crimson;
+}
+
+.man1 >.bar3{
+    margin-top: 15px;
+    width: 40%;
+    height: 30px;
+    background-color: crimson;
+}
+
+.flexbox2{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255, 255, 0, 0.412);
+    text-align: center;
+}
+
+.flexbox2 h1{
+    padding: 10px;
+    color: aliceblue;
+}
+.flexbox2 span{
+    
+    margin: 20px;
+
+    
+}
+.flexbox2 span input{
+    background-color: red;
+    padding: 10px;
+    border-radius: 4px;
+}
+.flexbox3{
+    margin-top: 30px;
+    width: 100%;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.342);
+    
+    text-align: center;
+}
+.flexbox3 > h1{
+    
+    color: springgreen;
+}
+.flexbox3 > p{
+    
+    color: aqua;
+}
+.flexbox4{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: aliceblue;
+    
+    
+}
+.flexbox4 div{
+    width: 20%;
+    margin: auto;
+}
+.flexbox4 div img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(255, 255, 0);
+    box-shadow: 10px 1px 10px yellow;
+    
+}
+.flexbox4 div p {
+color: aqua;
+font-size: larger;
+background-color: rgba(255, 0, 0, 0.383);
+margin-top: 10px;
+padding: 7px;
+
+}
+.flexbox4 div i{
+    color: red;
+    font-size: xx-large;
+    background-color: rgba(255, 0, 0, 0.422);
+    padding: 5px;
+}
+
+.flexbox5{
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(240, 248, 255, 0.44);
+    text-align: center;
+}
+.flexbox5 div{
+    width: 60%;
+    margin: auto;
+    color: white;
+   margin-top: 10px;
+}
+
+
+.gridbox1{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+
+}
+
+.flexbox6{
+    background-image: linear-gradient(40deg,rgba(245, 245, 10, 0.467),rgba(255, 166, 0, 0.529));
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: rgb(255, 2, 2);
+    
+}
+
+
+.flexbox6 div{
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+}
+
+@media only screen and (max-width:576px){
+.backround1{
+    height: 750vh;
+}
+
+    .color3{
+        height: 600px;
+    }
+
+    .man1{
+        height: 130%;
+    }
+
+    .flexbox1{
+        grid-template-columns: auto;
+       
+    }
+    .flexbox1 div{
+width: 100%;
+    }
+    .flexbox2 span{
+        display: block;
+        text-align: center;
+    }
+    .flexbox2{
+        height: 250px;
+    }
+
+    .flexbox2 span input{
+        margin: 10px;
+    }
+    .flexbox3{
+        
+        width: 70%;
+        margin: 10px auto;
+        height: 290vh;
+    }
+
+    .flexbox4 div{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .flexbox5{
+        margin-top: 20px;
+        background-color: rgba(240, 248, 255, 0.273);
+    }
+    .head1 span button{
+
+        margin: 15px;
+    }
+    .gridbox1{
+    
+        
+        grid-template-columns: auto auto ;
+        gap: 15px;
+    
+    }
+
+
+    .flexbox5{
+        height: 800px;
+        overflow: hidden;
+    }
+    .gridbox1 div{
+
+        overflow: hidden;
+    }
+    .flexbox6{
+        height: 900px;
+    }
+
+
+
+    
+}
